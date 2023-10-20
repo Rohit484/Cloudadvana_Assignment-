@@ -1,4 +1,13 @@
-# Ignore all files and directories except Java code
+# Ignore all files and directories
 *
-!/JAVA_CODE/
-!*.java
+
+# Allow the Cloudvandana directory and its .gitignore file
+!/Cloudvandana/
+!/Cloudvandana/.gitignore
+
+# Allow specific Java files
+!/Cloudvandana/Java_Code/
+/Cloudvandana/Java_Code/*
+!/Cloudvandana/Java_Code/ArrayShuffle.java
+!/Cloudvandana/Java_Code/PangramChecker.java
+!/Cloudvandana/Java_Code/RomanToInteger.java

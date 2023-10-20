@@ -11,3 +11,6 @@
 !/Cloudvandana/Java_Code/ArrayShuffle.java
 !/Cloudvandana/Java_Code/PangramChecker.java
 !/Cloudvandana/Java_Code/RomanToInteger.java
+# Allow the JS_CODE directory and its contents
+!/Cloudvandana/JS_CODE/
+/Cloudvandana/JS_CODE/*

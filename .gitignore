@@ -1,5 +1,4 @@
-# Ignore all files and directories
-*
+
 
 # Allow the Cloudvandana directory and its .gitignore file
 !/Cloudvandana/

@@ -1,15 +1,13 @@
+# Ignore specific files and directories in the root
+.idea/
+.git/
+cloudvandana.iml
 
+# Ignore entire subfolders
+js_code/
+java_code/
+html_code/
 
-# Allow the Cloudvandana directory and its .gitignore file
-!/Cloudvandana/
-!/Cloudvandana/.gitignore
-
-# Allow specific Java files
-!/Cloudvandana/Java_Code/
-/Cloudvandana/Java_Code/*
-!/Cloudvandana/Java_Code/ArrayShuffle.java
-!/Cloudvandana/Java_Code/PangramChecker.java
-!/Cloudvandana/Java_Code/RomanToInteger.java
-# Allow the JS_CODE directory and its contents
-!/Cloudvandana/JS_CODE/
-/Cloudvandana/JS_CODE/*
+# Ignore specific files and directories within nested subfolders
+Java_Code/.idea/
+Java_Code/out/
